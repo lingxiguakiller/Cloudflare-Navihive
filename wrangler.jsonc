@@ -17,14 +17,15 @@
     "d1_databases": [
         {
             "binding": "DB",
-            "database_name": "navigation-db-local",
-            "database_id": "43ff28e1-42d6-4e53-9657-0702ae1353b6"
+            "database_name": "navigation-db",
+            "database_id": "bcd538af-f293-43cf-bf13-e7d54f55534a"
         }
     ],
     "vars": {
         "AUTH_ENABLED": "true",
-        "AUTH_USERNAME": "linuxdo",
-        "AUTH_PASSWORD": "linuxdo",
-        "AUTH_SECRET": "linuxdo"
+        "AUTH_USERNAME": "admin",
+        "AUTH_PASSWORD": "$2a$10$0BvdpODzpPT5jU.5LGJiO.TdsMw4KkYaz0olJeUZFsDLC5AeQjKF6",
+        "AUTH_SECRET": "IbP3qmwufk3XHDJVREUsii8bixhiva3K"
+        "AUTH_REQUIRED_FOR_READ": "false"  // 启用访客模式
     }
 }
